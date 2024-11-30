@@ -56,9 +56,9 @@ p {
     margin-bottom: 30px;
   }
 
-audio
+#lagu
 {
-    display : none;
+  display : none
 }
 
 #confetti-canvas {
