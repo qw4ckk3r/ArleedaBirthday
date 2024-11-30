@@ -16,6 +16,7 @@
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.6s;
+  transform-origin: center center;
 }
 
 /* Front side of the flip card */
