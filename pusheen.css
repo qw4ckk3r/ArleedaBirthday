@@ -47,3 +47,27 @@
     width: 150px; /* Set the size of the balloon image */
     height: auto; /* Maintain aspect ratio */
   }
+
+.button {
+  padding: 10px 20px;
+  width: 10000px;
+  height: 20000px;
+  background-image: url('img/pusheen-birthday.gif'); /* Use the image here */
+  background-size: cover;  /* Make sure the image covers the whole button */
+  background-position: center;
+  justify-content: center; 
+  align-items: center;
+  }
+
+.button span
+{
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  background-image: url('img/pusheen-birthday.gif');
+  }
+.button:active {
+  background-image: url('img/pusheen-birthday.gif');
+}
