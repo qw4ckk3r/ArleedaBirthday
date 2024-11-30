@@ -1,0 +1,49 @@
+.balloon {
+    position: absolute;
+    top: 2%; /* Adjust the position of the balloon */
+    left: 25%; /* Centers the balloon horizontally */
+    transform: translateX(-50%); /* Centers the balloon properly */
+    z-index: -1; /* Keep balloon behind the flip card */
+    width: 150px; /* Set the size of the balloon image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.eat {
+    position: absolute;
+    top: 70%; /* Adjust the position of the balloon */
+    left: 10%; /* Centers the balloon horizontally */
+    transform: translateX(-50%); /* Centers the balloon properly */
+    z-index: -1; /* Keep balloon behind the flip card */
+    width: 150px; /* Set the size of the balloon image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.dance {
+    position: absolute;
+    top: 20%; /* Adjust the position of the balloon */
+    left: 90%; /* Centers the balloon horizontally */
+    transform: translateX(-50%); /* Centers the balloon properly */
+    z-index: -1; /* Keep balloon behind the flip card */
+    width: 150px; /* Set the size of the balloon image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.meow {
+    position: absolute;
+    top: 75%; /* Adjust the position of the balloon */
+    left: 75%; /* Centers the balloon horizontally */
+    transform: translateX(-50%); /* Centers the balloon properly */
+    z-index: -1; /* Keep balloon behind the flip card */
+    width: 150px; /* Set the size of the balloon image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.boba {
+    position: absolute;
+    top: 45%; /* Adjust the position of the balloon */
+    left: 25%; /* Centers the balloon horizontally */
+    transform: translateX(-50%); /* Centers the balloon properly */
+    z-index: -1; /* Keep balloon behind the flip card */
+    width: 150px; /* Set the size of the balloon image */
+    height: auto; /* Maintain aspect ratio */
+  }
