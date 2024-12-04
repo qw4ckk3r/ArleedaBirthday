@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -5,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Birthday</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="pusheen.css">
     <link rel="icon" type="image/x-icon" href="img/pusheenballonstatic.png">
 </head>
@@ -19,11 +19,12 @@
         <img src="img/pusheendancing.gif" alt="dance" class="dance">
         <img src="img/pusheen-pusheen-cat.gif" alt="meow" class="meow">
         <img src="img/pusheenboba.png" alt="boba" class="boba">
-
+      
+      <div class="flip-card-container">
         <div class="flip-card">
           <div class="flip-card-inner">
             <!-- Back of the card -->
-            <div class="flip-card-front">
+            <div class="flip-card-back">
                 <h2>Saya taktau nak wish apa</h2>
                 <p></p>
                 <p>Semoga Arleeda dekan sem ini dan seterusnya</p>
@@ -34,13 +35,14 @@
                 <p></p>
                 <p>...</p>
                 <p></p>
-                <p>Cuba tekan kucen bawah ni</p>
-                <a onclick="this.firstChild.play()" class="button"><audio src="instrument.mp3"></audio></a>
-              
-                <img src="img/pusheencake.png" alt="meow" class="meow">
+                <p>Cuba tekan kucen bawah tu</p>
+                <a onclick="this.querySelector('audio').play()">
+                  <img src="img/pusheencake.png" alt="meow" class="meow">
+                  <audio src="instrument.mp3"></audio>
+              </a>
             </div>
             <!-- Front of the card -->
-            <div class="flip-card-back">
+            <div class="flip-card-front">
                 <h1>Happy Birthday,</h1>
                 <h2>Arleeda Sofea!</h2>
                 <p>Selamat Hari Lahir</p>
@@ -49,12 +51,13 @@
                 <p>Bon anniversaire</p>
                 <p>عيد ميلاد سعيد</p>
                 <p>SGFwcHkgQmlydGhkYXk=</p>
-                
+                <button id="flipButton">Tekan saya</button>
             </div>
           </div>
         </div>
-      </div>
-  
+   
+      <div class="flip-card-container">
+    </div>
     <script src="confetti.js"></script>
 </body>
 </html>
