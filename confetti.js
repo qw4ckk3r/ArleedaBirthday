@@ -1,3 +1,4 @@
+
 const canvas = document.getElementById("confetti-canvas");
 const ctx = canvas.getContext("2d");
 
@@ -73,8 +74,11 @@ function animate() {
 // start animation
 animate();
 
-// Untuk mobile (soon to test)
-document.getElementById('flipCard').addEventListener('click', function() {
-    this.querySelector('.flip-card-inner').classList.toggle('flipped');
-  });
-  
+//flip button
+document.getElementById("flipButtonfront").addEventListener("click", function() {
+  document.querySelector(".flip-card-inner").classList.toggle("flipped");
+});
+
+document.getElementById("flipButtonback").addEventListener("click", function() {
+  document.querySelector(".flip-card-inner").classList.toggle("flipped");
+});
